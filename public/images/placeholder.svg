@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fdfbf7"/>
+      <stop offset="100%" stop-color="#f9fafb"/>
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#e5e7eb"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="400" fill="url(#g)"/>
+  <rect width="600" height="400" fill="url(#dots)"/>
+  <g transform="translate(300 200)">
+    <circle r="48" fill="#0f0f0f"/>
+    <text y="14" text-anchor="middle" font-family="Playfair Display, serif"
+          font-style="italic" font-weight="700" font-size="48" fill="#d4af37">f.</text>
+  </g>
+  <text x="300" y="290" text-anchor="middle" font-family="Outfit, sans-serif"
+        font-size="14" font-weight="700" fill="#9ca3af" letter-spacing="2">FLEAZO</text>
+</svg>
