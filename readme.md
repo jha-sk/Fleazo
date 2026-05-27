@@ -35,6 +35,82 @@
   </p>
 </div>
 
+<!-- Interactive UI Component Mockups (Bespoke SVG representation) -->
+<div align="center" style="margin-bottom: 30px;">
+  <p style="font-family: 'Outfit', sans-serif; font-weight: bold; font-size: 13px; color: #2D2825; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.1em;">
+    Tactile Card Layout Blueprint
+  </p>
+  
+  <svg width="100%" height="240" viewBox="0 0 600 240" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width: 600px; display: block; filter: drop-shadow(0 8px 24px rgba(45,40,37,0.08));">
+    <!-- Outer Board Background -->
+    <rect width="600" height="240" rx="16" fill="#FDFBF7" stroke="#EBE4D5" stroke-width="2"/>
+    <circle cx="150" cy="50" r="120" fill="#C85A32" fill-opacity="0.03" filter="blur(40px)"/>
+    <circle cx="450" cy="180" r="100" fill="#D4AF37" fill-opacity="0.04" filter="blur(30px)"/>
+    
+    <!-- Grid dots -->
+    <defs>
+      <pattern id="dots" x="0" y="0" width="16" height="16" patternUnits="userSpaceOnUse">
+        <circle cx="8" cy="8" r="1" fill="#EBE4D5" />
+      </pattern>
+    </defs>
+    <rect x="2" y="2" width="596" height="236" rx="14" fill="url(#dots)" fill-opacity="0.6"/>
+
+    <!-- Business Card Mockup (Left Panel) -->
+    <g transform="translate(40, 30)">
+      <!-- Card Frame -->
+      <rect width="230" height="180" rx="12" fill="#FFFFFF" stroke="#EBE4D5" stroke-width="1"/>
+      <!-- Perforation line top -->
+      <line x1="10" y1="12" x2="220" y2="12" stroke="#D8CDB6" stroke-dasharray="3 3" stroke-width="2"/>
+      
+      <!-- Category Badge -->
+      <rect x="20" y="28" width="46" height="16" rx="8" fill="#FCFAF7" stroke="#EBE4D5"/>
+      <text x="43" y="39" fill="#C85A32" font-family="'Outfit', sans-serif" font-size="8" font-weight="bold" text-anchor="middle">CAFE</text>
+      
+      <!-- Title -->
+      <text x="20" y="68" fill="#0F0F0F" font-family="'Playfair Display', serif" font-size="16" font-weight="900">Tapri Central</text>
+      <text x="20" y="84" fill="#8A7F73" font-family="'Outfit', sans-serif" font-size="10">Jaipur · Top Tier</text>
+      
+      <!-- Blurb text lines -->
+      <rect x="20" y="102" width="190" height="5" rx="2" fill="#F3F4F6"/>
+      <rect x="20" y="112" width="140" height="5" rx="2" fill="#F3F4F6"/>
+      
+      <!-- WhatsApp Direct Button Mockup -->
+      <rect x="20" y="132" width="190" height="28" rx="14" fill="#C85A32"/>
+      <text x="115" y="149" fill="#FFFFFF" font-family="'Outfit', sans-serif" font-size="9" font-weight="bold" text-anchor="middle">DIRECT BRIEF →</text>
+    </g>
+
+    <!-- Creator Card Mockup (Right Panel) -->
+    <g transform="translate(330, 30)">
+      <!-- Washi Tape -->
+      <rect x="65" y="-6" width="100" height="12" rx="2" fill="#D4AF37" transform="rotate(-3 115 0)" opacity="0.85"/>
+      
+      <!-- Card Frame -->
+      <rect width="230" height="180" rx="12" fill="#FFFFFF" stroke="#EBE4D5" stroke-width="1"/>
+      
+      <!-- Circular Avatar representation -->
+      <circle cx="50" cy="55" r="24" fill="#FDFBF7" stroke="#D4AF37" stroke-width="2"/>
+      <!-- Abstract profile shape -->
+      <path d="M38 67C38 58 43 55 50 55C57 55 62 58 62 67" stroke="#8A7F73" stroke-width="2" fill="none"/>
+      <circle cx="50" cy="46" r="8" fill="#8A7F73"/>
+      
+      <!-- Verified Voice Stamp -->
+      <rect x="86" y="38" width="76" height="14" rx="7" fill="#FCFAF7" stroke="#E3D9C5"/>
+      <text x="124" y="47" fill="#8A7F73" font-family="'Outfit', sans-serif" font-size="7" font-weight="bold" text-anchor="middle">VERIFIED VOICE</text>
+      
+      <!-- Name -->
+      <text x="26" y="98" fill="#0F0F0F" font-family="'Playfair Display', serif" font-size="15" font-weight="900">Sakshi Jain</text>
+      <text x="26" y="114" fill="#D4AF37" font-family="'Outfit', sans-serif" font-size="10" font-weight="bold">Mandala Artist</text>
+      
+      <!-- Quote -->
+      <rect x="26" y="130" width="178" height="4" rx="2" fill="#F3F4F6"/>
+      <rect x="26" y="140" width="130" height="4" rx="2" fill="#F3F4F6"/>
+      
+      <!-- Small tag -->
+      <text x="204" y="114" fill="#8A7F73" font-family="'Outfit', sans-serif" font-size="8" text-anchor="end" font-weight="bold">EXPERT</text>
+    </g>
+  </svg>
+</div>
+
 > [!NOTE]
 > The design system rejects cold, template corporate grids in favor of custom washi-tape styled panels, polaroid pinboard grids, and radial-perforation ticket details.
 
